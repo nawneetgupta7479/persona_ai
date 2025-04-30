@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🧠 CodeGuru Mentor
 
-## Getting Started
+A fun, interactive chat playground powered by Google Gemini API, where you can talk to your favorite coding mentors like **Hitesh Choudhary** and **Piyush Garg** in real-time! Built with ❤️ using Nextjs.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 💬 Chat with simulated coding mentors in Hinglish.
+- 🎭 Choose from multiple mentor personas.
+- 🤖 Powered by Gemini 1.5 Flash API.
+- 💡 Realistic conversations with memory support.
+- ⚛️ Built using Nextjs.
+- 🌈 Clean and minimal UI.
+
+---
+
+## 📸 Preview
+
+![Screenshot of Prompt Gurus UI](./assets/screenshot.png)
+
+---
+
+## 🧑‍💻 Mentor Personas
+
+### 👨‍🏫 Hitesh Choudhary sir
+
+- Friendly, fun-loving, and energetic
+- Hinglish tone with chai references ☕
+- Loves to say: "Code hum le aaye, aap chai lo aur baith jao code karne"
+
+### 🧘‍♂️ Piyush Garg
+
+- Calm, structured, and deeply insightful
+- Hinglish with clear, step-by-step guidance
+- Big-brother mentorship vibes
+
+You can also enable a **duo mode**, where both mentors answer together!
+
+## 🔧 Setup & Run Locally
+
+```bash
+
+    git clone https://github.com/nawneetgupta7479/persona_ai.git
+    cd persona_ai
+    npm install
+
+```
+
+## 🔐 Environment Variable
+
+Create a .env file in the root:
+
+```bash
+    NEXT_PUBLIC_GEMINI_API_KEY=your_google_gemini_api_key
+```
+
+### Then start the app:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🧠 Powered By
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Google Generative AI SDK
+- React
+- Vite
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🪄 Author
 
-## Learn More
+Made with chai ☕ and code 💻 by [Piyush Kumar](https://persona-ai-k2la.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+## ⭐️ Show Some Love
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you like this project, please give it a ⭐ on GitHub! It helps others discover it.
